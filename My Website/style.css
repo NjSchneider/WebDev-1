@@ -1,0 +1,194 @@
+/* Nick Schneider
+   CIS 130 Web Dev
+   2/21/2019
+*/
+
+*{
+  margin: 0px;
+}
+body{
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+li{
+	float: left;
+}
+
+.navBar, .dropBar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2e2e2e;
+}
+
+li a, .dropButton{
+	display: inline-block;
+	color: white;
+	text-align: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li.dropBar{
+  color: blue;
+	display: block;
+}
+
+.dropBar-Content{
+	display: none;
+	position: absolute;
+	border: 1px solid black;
+	padding: 0px 0px;
+	background-color: #2e2e2e;
+	z-index: 1;
+}
+
+.dropBar-Content a{
+	display: block;
+	color: white;
+  border: 1px solid black;
+	text-decoration: none;
+	text-align: left;
+}
+
+li a:hover, .dropBar:hover{
+	background-color: white;
+	display: block;
+  color: blue;
+  font-weight: bold;
+}
+
+.dropBar-Content a:hover{
+	background-color: white;
+	display: block;
+  color: blue;
+  font-weight: bold;
+}
+
+
+.dropBar:hover .dropBar-Content{
+	display: block;
+  color: blue;
+  font-weight: bold;
+}
+
+li a.active {
+	background-color: #2e2e2e;
+	color: white;
+}
+
+a:hover{
+  color: blue;
+}
+
+h1{
+  width: 90%;
+  margin: auto;
+  background-color:  #2e2e2e;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom: 10px double white;
+  text-align: center;
+  font-size: 3.5em;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-variant: small-caps;
+}
+
+h2{
+  background-color: #2e2e2e;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  font-size: 2.5em;
+  color: white;
+  display: block;
+  padding: 10px 0px 10px 0px;
+  border-radius: 20px;
+  border-bottom: 10px double white;
+}
+
+section{
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  font-family: 'Audiowide', cursive;
+  font-size: 1.25em;
+  color: black;
+}
+
+span{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#homeImage{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 40%;
+  padding-top: 0px;
+  position: relative;
+  overflow: auto;
+  border-radius: 20px;
+  border: 4px solid black;
+}
+
+#homeImage:hover{
+  transition: .2s;
+  transform: scale(1.15);
+}
+
+.homePage{
+  background-color: white;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 5px 20px 5px;
+  text-align: center;
+  color: black;
+  display: block;
+  border: 5px solid #2e2e2e;
+  border-radius: 25px;
+  font-size: 1.2em;
+  font-family: 'Aldrich', sans-serif;
+  font-weight: bold;
+}
+
+.homeList{
+  font-family: 'Russo One', sans-serif;
+  color: #000080;
+  text-decoration: underline;
+}
+
+.homePage a{
+  text-decoration: none;
+  color: black;
+}
+
+.homePage a:hover{
+  font-size: 1.4em;
+  color: blue;
+}
+
+footer{
+  text-align: center;
+  color: white;
+  background-color: #1b1b1b;
+  position: fixed;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  bottom: 0px;
+  margin: auto;
+}
