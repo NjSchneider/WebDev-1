@@ -1,0 +1,23 @@
+https://github.com/MarkleyClassroom/SeaBubblesHawaii
+
+<i class="far fa-envelope"></i> envelope icon
+
+<i class="fab fa-facebook"></i> Facebook icon
+
+<i class="fab fa-instagram"></i> Instagram icon
+
+<i class="fab fa-linkedin"></i> Linked In icon
+
+<i class="fab fa-youtube"></i> youtube icon
+
+<i class="fab fa-yelp"></i> Yelp icon
+
+<i class="fas fa-phone"></i> Phone icon
+
+<i class="fas fa-plus"></i> Solid Plus icon
+
+<i class="fas fa-plus"></i> Plus icon
+
+<i class="fas fa-minus-square"></i> Solid Minus Certfication
+
+<i class="fas fa-minus"></i> Minus icon
