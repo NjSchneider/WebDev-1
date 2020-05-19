@@ -1,0 +1,1504 @@
+/*-------------------- General Styling --------------------*/
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #ffffff;
+  color: black;
+  font-size: auto;
+}
+
+header{
+  font-family: 'Coda Caption', sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+h2{
+  font-family: 'Coda Caption', sans-serif;
+}
+
+h3{
+  font-family: 'Coda Caption', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+h4,
+h5{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+h5{
+  text-transform: capitalize;
+}
+
+ul{
+  list-style-type: none;
+}
+
+p{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+ li{
+   font-size: 1.1em;
+   font-family: 'Roboto', sans-serif;
+ }
+
+ a{
+   color: black;
+ }
+
+ a:hover{
+   color: #D4AF37;
+ }
+
+ /*-------------------- Main Containers --------------------*/
+
+.container-fluid{
+  background-color: white;
+  height: fit-content;
+  min-height: 600px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+ /*-------------------- Dividers --------------------*/
+.footer-line{
+  width: 80%;
+  border-bottom: 1px solid white;
+}
+
+.footer-line-contact{
+  width: 50%;
+  border-bottom: 1px solid white;
+}
+
+.header-line{
+  width: 15%;
+  margin: auto;
+  border-bottom: 2px solid black;
+}
+
+.header-line-landing{
+  width: 40%;
+  margin: auto;
+  border-bottom: 2px solid white;
+  margin-bottom: 15px;
+}
+
+#line-slide3{
+  width: 80%;
+}
+
+.header-line-left{
+  width: 20%;
+  border-bottom: 2px solid black;
+}
+
+.header-line-equipment{
+  width: 40%;
+  border-bottom: 2px solid black;
+}
+
+/*-------------------- Banners --------------------*/
+
+.banner{
+  height: auto;
+  min-height: 100px;
+  padding-top: 20px;
+  text-align: center;
+  border: none;
+}
+
+.course-banner{
+  height: auto;
+  min-height: 100px;
+  padding-top: 40px;
+  text-align: center;
+  border: none;
+}
+
+/*-------------------- To-Top & Footer Buttons --------------------*/
+
+#myBtn {
+  text-align: center;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  background-color: black;
+  padding: 4px;
+  width: fit-content;
+  display: none;
+  position: fixed;
+  bottom: 15%;
+  right: .8%;
+  color: white;
+  cursor: pointer;
+  opacity: .8;
+}
+
+#myBtn:hover{
+  color: black;
+  background-color: white;
+  opacity: 1;
+}
+
+.book-footer{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  background-color: white  !important;
+  border-color: black;
+  color: black;
+  margin-left: 10px;
+}
+
+.book-footer i{
+  color: black;
+}
+
+.book-footer:hover,
+.book-footer:active,
+.book-footer:focus,
+.book-footer:hover i,
+.book-footer:active i,
+.book-footer:focus i{
+  color: #D4AF37;
+  background-color: rgb(38, 38, 38) !important;
+  border-color: white;
+}
+
+.book-footer:hover{
+
+}
+
+/*-------------------- Navigation Bar --------------------*/
+
+.navbar{
+  background-color: rgb(38, 38, 38) !important;
+  box-shadow: 0 4px 2px -1px black;
+  transition: .8s;
+  text-align: center;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus{
+  outline-color: black;
+  box-shadow: none;
+}
+
+.navbar-toggler i{
+  color: white !important;
+  font-size: 1.5em;
+  object-fit: contain;
+}
+
+.navbar.scrolled{
+  background-color: rgba(38, 38, 38, .8) !important;
+  box-shadow: 0 4px 2px -2px #202020;
+  transition: .8s;
+}
+
+.navbar.scrolled .nav-link:hover,
+.navbar.scrolled .navbar-brand:hover{
+  color: #D4AF37 !important;
+}
+
+.nav-link, .navbar-brand{
+  color: white !important;
+  font-family: 'lato', sans-serif;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.nav-link:hover,
+.navbar-brand:hover,
+.dropdown-item:hover{
+  color: #D4AF37 !important;
+}
+
+.nav-link.active{
+  color: #D4AF37! important;
+}
+
+.dropdown-menu{
+  background-color: rgb(38, 38, 38) !important;
+}
+
+.dropdown-item{
+  color: white !important;
+}
+
+.dropdown-item:hover{
+  background-color: rgb(47, 47, 47) !important;
+  font-weight: bold;
+}
+
+.dropdown-item.active{
+  color: #D4AF37 !important;
+  background-color: rgb(47, 47, 47) !important;
+}
+
+.dropdown-item:checked,
+.dropdown-item:focus,
+.dropdown-item:active{
+  background-color: rgb(47, 47, 47) !important;
+}
+
+/*-------------------- Landing Section --------------------*/
+
+.jumbotron{
+  height: fit-content;
+  border-bottom: 2px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#carousel, .jumbotron{
+  background-color: black !important;
+  height: 1013px;
+}
+
+.jumbotron p{
+  font-family: 'Lato', sans-serif;
+}
+
+.carousel-inner #landing-carousel-inner{
+  min-height: 1013px !important;
+}
+
+.item1{
+  background-image: url("../images/landing-image-logo-fix.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.item2{
+  background-image: url("../images/pistol-fix.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.item3{
+  background-image: url("../images/bwtraining-fix.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#landing-title{
+  font-size: 3.4em;
+}
+
+.slide1{
+  width: 30%;
+  height: fit-content;
+  text-align: left;
+  color:white;
+  position: absolute;
+  top: 62%;
+  right: 31%;
+  margin: auto;
+  padding: 20px;
+  font-size: 5em;
+  display: none;
+}
+
+.slide2{
+  width: 40%;
+  height: fit-content;
+  text-align: center;
+  color:white;
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  background-color: rgba(0,0,0,.6);
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.slide3{
+  width: 40%;
+  height: fit-content;
+  text-align: center;
+  color:white;
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  background-color: rgba(0,0,0,.6);
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.landing-slide-img{
+  visibility: hidden;
+  min-height: 1013px;
+}
+
+#landing-title{
+   font-size: 4em;
+}
+
+#landing-button{
+  position: relative;
+  bottom: 120px;
+  left: 900px;
+  color: white;
+  opacity: .7;
+  transition: .6s;
+}
+
+#landing-button:hover{
+  opacity: 1;
+  transition: .6s
+}
+
+/*-------------------- Landing-Why --------------------*/
+
+#home-why{
+  padding-top: 85px;
+}
+
+#why-info{
+  width: 50%;
+  margin: auto;
+}
+
+#why-info p,
+#why-info li{
+  font-size: 1.2em;
+}
+
+/*-------------------- Guest Instructors --------------------*/
+
+#guest-instructors{
+  min-height: fit-content;
+  max-height: 100%;
+}
+
+#guest-instructors .card{
+  background-color: rgb(38, 38, 38) !important;
+}
+
+#guest-instructors .card-img{
+  padding: 15px;
+  width: 100%;
+  max-height: 100%;
+  margin-top: 0;
+}
+
+#guest-instructors .card-body{
+  width: 80% !important;
+  margin-left: 10px;
+  margin-top: 30px;
+  background-color: rgb(38, 38, 38) !important;
+  color: white;
+}
+
+#guest-instructors .card-body p{
+  font-size: 1.2em;
+}
+
+.home-book-now{
+  margin-top: 30px;
+}
+
+.home-book-now:active,
+.home-book-now:focus,
+.home-book-now:hover{
+  color: #D4AF37;
+}
+
+/*-------------------- Courses Section --------------------*/
+
+#courses{
+  background-image: url("../images/bwgun.jpg");
+  background-color: rgb(38, 38, 38) !important;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#required-course{
+  color: black;
+  background-color: rgba(255, 255, 255, .8);
+  margin-bottom: 40px;
+  transition: .8s;
+}
+
+#required-course:hover{
+  background-color: rgba(255, 255, 255, .95);
+  transition: .6s;
+}
+
+#required-course p{
+  width: 55%;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+#home-BoSS-link{
+  background-color: #1f1f1f !important;
+  border-color: black;
+  margin-top: 10px;
+  color: white !important;
+}
+
+#home-BoSS-link:hover{
+  color: #D4AF37 !important;
+}
+
+.home-card{
+  display: flex;
+}
+
+.card{
+  border: none;
+  background-color: rgba(255, 255, 255, .8);
+  transition: .8s;
+  text-align: left;
+}
+
+
+.home-courses .card-body{
+  width: 70%;
+  margin: auto;
+  color: black;
+}
+
+.home-courses .card-body p{
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card:hover{
+  box-shadow: 2px 2px 6px 3px black;
+  background-color: rgba(255, 255, 255, .95);
+  transition: .6s;
+}
+
+#courses a{
+  color: black;
+}
+
+#courses a:hover{
+  color: #D4AF37;
+}
+
+.card-img{
+  width: 100%;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#guest-instructors .card{
+  
+}
+
+/*-------------------- Footer --------------------*/
+footer{
+  background-color: black;
+  padding-top: 60px;
+}
+
+footer,
+footer h6,
+footer i,
+footer p,
+footer a{
+  color: white;
+  text-align: left;
+}
+
+footer a:hover{
+  color: #D4AF37;
+}
+
+footer i:hover{
+  color: #D4AF37;
+}
+
+.page-footer{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.footer-up{
+  text-align: center;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  background-color: black;
+  padding: 4px;
+  width: fit-content;
+  color: white;
+  cursor: pointer;
+}
+
+/*-------------------- Course Pages --------------------*/
+
+.course-header{
+  background-image: url("../images/bwgun-header.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.course-header-image{
+  position: relative;
+  display: block;
+  margin: auto;
+  top: 130px;
+  width: 100%;
+  z-index: auto;
+}
+
+.course-header-image.scrolled{
+  display: none;
+}
+
+/*-------------- Course Navigation --------------*/
+.course-intraNav{
+  box-shadow: none !important;
+  opacity: 1 !important;
+}
+
+.course-intraNav li{
+  padding: 0 10px;
+}
+
+.course-intraNav .navbar-toggler:active,
+.course-intraNav .navbar-toggler:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+#pistol-nav{
+  text-align: center;
+  width: 35%;
+  margin: auto;
+  border-bottom: 1px solid black;
+  background-color: white !important;
+}
+
+#rifle-nav{
+  width: 45%;
+  margin: auto;
+  border-bottom: 1px solid black;
+  background-color: white !important;
+}
+
+#pistol-nav li,
+#rifle-nav li{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.course-nav-btn{
+  font-family:  'Roboto', sans-serif;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.fa-caret-down{
+  color: black !important;
+}
+
+/*-------------- Course Main Body --------------*/
+.course-article{
+   border-bottom: 8px solid black;
+   z-index: 2;
+}
+
+.course-info{
+  width: 50%;
+  margin: auto;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.course-info p{
+  font-size: 1.25em;
+}
+
+.learn-list{
+  list-style-type: circle;
+}
+
+.equipment-list{
+  list-style-type: disc;
+}
+
+.indent{
+  margin-left: 15px;
+  font-size: 1.25em;
+}
+
+/*-------------- Course Page Buttons --------------*/
+.chart-button{
+  margin-top: 10px;
+  background-color: #252525 !important;
+}
+
+.chart-button .float-left{
+  margin-right: 10px;
+}
+
+.checklist{
+  margin-right: 10px;
+}
+
+.download{
+  border-color: black;
+}
+
+.book-now{
+  background-color: #1f1f1f !important;
+  border-color: black;
+  margin-left: 10px;
+}
+
+.checklist:hover,.checklist:active,.checklist:focus,
+.download:hover,.download:active,.download:focus,
+.book-now:hover,.book-now:active,.book-now:focus{
+  color: #D4AF37;
+}
+
+.btn:focus{
+  border-color: black !important;
+}
+
+/*-------------- Carousel --------------*/
+.carousel-course{
+  margin: 0px;
+  padding: 0px;
+  z-index: 99;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.carousel-course .carousel{
+  width: 100%;
+  max-height: 320px;
+}
+
+.slide-box{
+  display: flex;
+  justify-content: space-between;
+  max-height: fit-content;
+}
+
+.slide-box img{
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0px;
+}
+
+/*-------------- Progression --------------*/
+.progression{
+  padding-top: 8px;
+  background-color: black;
+  max-height: fit-content !important;
+  min-height: fit-content !important;
+}
+
+.progression img{
+  display: block;
+  width: 80%;
+  margin: auto;
+  max-height: 800px;
+}
+
+/*-------------------- About Page --------------------*/
+
+#about-why{
+  background-image: url("../images/header1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 500px;
+}
+
+.cover-why{
+  background-color: rgba(255, 255, 255, .58);
+  padding: 10px;
+}
+
+/*-------------------- Contact Page --------------------*/
+
+#find-us{
+  padding-left: 20px;
+}
+
+#find-us,
+#find-us a{
+  background-color: rgb(38, 38, 38);
+  color: white;
+}
+
+#find-us a:hover{
+  color: #D4AF37;
+}
+
+/*----------------------------------  Responsize ---------------------------------- */
+
+/*----------------- Course Carousel -----------------*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+/*---------------------------------- Site Pages  ----------------------------------*/
+
+/*----------------------------- width 1050px -----------------------------*/
+@media only screen and (min-width: 2000px){
+  #landing-button{
+    position: relative;
+    bottom: 120px;
+    left: 1240px;
+    color: white;
+    opacity: .7;
+    transition: .6s;
+  }
+
+  #pistol-nav{
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    border-bottom: 1px solid black;
+  }
+
+  #rifle-nav{
+    width: 32%;
+    margin: auto;
+    border-bottom: 1px solid black;
+  }
+
+}
+
+/*----------------------------- width 1050px -----------------------------*/
+@media only screen and (max-width: 1050px){
+
+/*---------------- Home Page ----------------*/
+  .slide1{
+    width: 30%;
+    height: fit-content;
+    text-align: left;
+    color:white;
+    position: absolute;
+    top: 62%;
+    right: 31%;
+    margin: auto;
+    padding: 20px;
+    font-size: 5em;
+  }
+
+  .slide2{
+    width: 40%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    background-color: rgba(0,0,0,.6);
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+
+  .slide3{
+    width: 40%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    background-color: rgba(0,0,0,.6);
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+
+  #landing-button{
+    position: relative;
+    bottom: 120px;
+    left: 500px;
+    color: white;
+    opacity: .7;
+    transition: .6s;
+  }
+
+  #why-info{
+    width: 80%;
+  }
+
+  .home-courses{
+    width: 100%;
+    margin: auto;
+  }
+
+  #guest-instructors .card-body{
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-top: auto!important;
+  }
+
+  .home-book-now{
+    margin-top: 15px;
+  }
+
+  .home-book-now:active,
+  .home-book-now:focus,
+  .home-book-now:hover{
+    color: #D4AF37;
+  }
+
+/*---------------- Course Pages ----------------*/
+  .course-info{
+    width: 80% !important;
+  }
+
+  .checklist{
+    margin-right: 5px;
+  }
+
+  .book-now{
+    margin-left: 5px;
+  }
+
+}
+
+/*----------------------------- width 812px -----------------------------*/
+@media (min-width: 771px) and (max-width: 812px){
+
+  .dropdown-item{
+    text-align: center;
+  }
+
+  .footer-courses{
+    margin-right: 150px !important;
+  }
+
+}
+
+/*----------------------------- width 760px -----------------------------*/
+@media only screen and (max-width: 770px){
+
+  .slide2{
+    width: 65%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    background-color: rgba(0,0,0,.6);
+    padding: 10px;
+  }
+
+  .slide3{
+    width: 65%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    background-color: rgba(0,0,0,.6);
+    padding: 10px;
+  }
+
+  #landing-button{
+    position: relative;
+    bottom: 120px;
+    left: 380px;
+    color: white;
+    opacity: .7;
+    transition: .6s;
+  }
+
+  #why-info{
+    width: 80%;
+  }
+
+  .home-card{
+    max-height: fit-content;
+    margin-bottom: 15px;
+  }
+
+  .home-card .card-body{
+    width: 100%;
+  }
+
+  .footer-courses{
+    margin-right: 150px !important;
+  }
+
+/*---------------- Course Pages ----------------*/
+  .course-header-image{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 200px;
+    width: 100%;
+    z-index: auto;
+  }
+
+  .course-info{
+    width: 100% !important;
+  }
+}
+
+/*----------------------------- width 640px -----------------------------*/
+@media (min-width: 500px) and (max-width: 640px){
+
+/*----------------------- Home Page -----------------------*/
+
+/*-------------- Landing --------------*/
+  .jumbotron{
+    border-bottom: 2px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  #carousel, .jumbotron{
+    background-color: black !important;
+    height: 500px;
+  }
+
+  .jumbotron p{
+    font-family: 'Lato', sans-serif;
+  }
+
+/*-------------- Landing Carousel --------------*/
+  .carousel-inner #landing-carousel-inner{
+    min-height: 500px !important;
+    height: 500px;
+  }
+
+  .landing-slide-img{
+    visibility: hidden;
+    min-height: 500px;
+  }
+
+  .item1{
+    background-image: url("../images/landing-image-logo-fix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .item2{
+    background-image: url("../images/pistol-fix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .item3{
+    background-image: url("../images/bwtraining-fix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .slide1{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 52%;
+    right: 0%;
+    margin: auto;
+    padding: 20px;
+    font-size: 5em;
+    display: block;
+    color: white !important;
+    opacity: .35;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .slide1 h2{
+    font-size: .48em;
+    font-family: 'Russo One', sans-serif !important;
+  }
+
+  .slide2{
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    background-color: rgba(0,0,0,.6);
+    padding: 10px;
+  }
+
+  .slide3{
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    background-color: rgba(0,0,0,.6);
+    padding: 10px;
+  }
+
+  #landing-button{
+    position: relative;
+    bottom: 120px;
+    left: 300px;
+    color: white;
+    opacity: .7;
+    transition: .6s;
+  }
+
+  /*-------------- Home About & Courses --------------*/
+  #home-why{
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+
+  .home-card{
+    max-height: fit-content;
+    margin-bottom: 15px;
+  }
+
+  .home-card .card-body{
+    width: 100%;
+    text-align: center;
+  }
+
+/*----------------------- Course Pages -----------------------*/
+  #pistol-nav{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    border: none;
+  }
+
+  #rifle-nav{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    border: none;
+  }
+
+  #pistol-nav li,
+  #rifle-nav li{
+    margin-top: 5px;
+  }
+
+  .course-info{
+    width: 100% !important;
+  }
+
+  .course-info h1,
+  .course-info h2,
+  .course-info h5{
+    font-size: 1em !important;
+  }
+
+  .nav-link,
+  .dropdown-item{
+    font-size: 1em !important;
+  }
+
+  .course-header-image{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 65px;
+    width: 100%;
+    z-index: auto;
+  }
+
+  .checklist{
+    margin-left: 10px;
+  }
+
+  .book-now{
+    margin-left: 10px;
+  }
+
+  #ccw-book-now{
+    margin-top: 10px;
+  }
+
+  .progression,
+  .chart-button{
+    display: none;
+  }
+
+  /*----------------------- About Page -----------------------*/
+  #why-info{
+    width: 100%;
+  }
+
+  #why-info p,
+  #why-info li{
+    font-size: 1em !important;
+  }
+
+  #required-course p{
+    width: 100%;
+  }
+
+  .course-header{
+    background-image: url("../images/bwgun-header.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    min-height: 300px;
+  }
+
+  #about-why{
+    background-image: url("../images/header1.jpg");
+    background-repeat: no-repeat;
+    background-position: 60% center;
+    min-height: 400px;
+  }
+
+  .cover-why{
+    background-color: rgba(255, 255, 255, .75);
+  }
+
+  .cover-why p{
+    width: 100%;
+  }
+
+  /*----------------------- Contact Page -----------------------*/
+  .calendar{
+    max-height: 400px;
+  }
+
+}
+
+/*----------------------------- width 420px -----------------------------*/
+@media only screen and (max-width: 420px){
+
+/*----------------------- Home Page -----------------------*/
+
+/*-------------- Navbar --------------*/
+  .navbar-nav > li > a{
+    font-size: 1.2em !important;
+  }
+
+/*-------------- Landing --------------*/
+  .jumbotron{
+    border-bottom: 2px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  #carousel, .jumbotron{
+    background-color: black !important;
+    height: 500px;
+  }
+
+  .jumbotron p{
+    font-family: 'Lato', sans-serif;
+  }
+
+/*-------------- Landing Carousel --------------*/
+  .carousel-inner #landing-carousel-inner{
+    min-height: 500px !important;
+    height: 500px;
+  }
+
+  .landing-slide-img{
+    visibility: hidden;
+    min-height: 500px;
+  }
+
+  .item1{
+    background-image: url("../images/landing-image-logo-fix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .item2{
+    background-image: url("../images/pistol-fix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .item3{
+    background-image: url("../images/bwtraining-fix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .slide1{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 52%;
+    right: 0%;
+    margin: auto;
+    padding: 20px;
+    font-size: 5em;
+    display: block;
+    color: white !important;
+    opacity: .35;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .slide1 h2{
+    font-size: .48em;
+    font-family: 'Russo One', sans-serif !important;
+  }
+
+  .slide2{
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    background-color: rgba(0,0,0,.6);
+    padding: 10px;
+  }
+
+  .slide3{
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    background-color: rgba(0,0,0,.6);
+    padding: 10px;
+  }
+
+  #landing-button{
+    display: none;
+  }
+
+  /*-------------- Home About & Courses --------------*/
+  #home-why{
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+
+  .home-card{
+    max-height: fit-content;
+    margin-bottom: 15px;
+  }
+
+  .home-card .card-body{
+    width: 100%;
+    text-align: center;
+  }
+
+/*----------------------- Course Pages -----------------------*/
+  #pistol-nav{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    border: none;
+  }
+
+  #rifle-nav{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    border: none;
+  }
+
+  #pistol-nav li,
+  #rifle-nav li{
+    margin-top: 5px;
+  }
+
+  .course-info{
+    width: 100% !important;
+  }
+
+  .course-info h1,
+  .course-info h2,
+  .course-info h5{
+    font-size: 1em !important;
+  }
+
+  .nav-link,
+  .dropdown-item{
+    font-size: 1em !important;
+  }
+
+  .course-header-image{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 130px;
+    width: 100%;
+    z-index: auto;
+  }
+
+  .chart-button{
+    display: none;
+  }
+
+  .checklist{
+    margin-bottom: 10px;
+  }
+
+  .book-now{
+    margin-top: 10px;
+    margin-left: auto;
+  }
+
+  .progression{
+    display: none;
+  }
+
+  /*----------------------- About Page -----------------------*/
+  #why-info{
+    width: 100%;
+  }
+
+  #why-info p,
+  #why-info li{
+    font-size: 1em !important;
+  }
+
+  #required-course p{
+    width: 100%;
+  }
+
+  .course-header{
+    background-image: url("../images/bwgun-header.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 45% top;
+    background-attachment: fixed;
+    min-height: 380px;
+  }
+
+  #about-why{
+    background-image: url("../images/header1.jpg");
+    background-repeat: no-repeat;
+    background-position: 60%, center;
+    min-height: 400px;
+  }
+
+  .cover-why{
+    background-color: rgba(255, 255, 255, .75);
+  }
+
+  .cover-why p{
+    width: 100%;
+  }
+
+  /*----------------------- Contact Page -----------------------*/
+  .calendar{
+    max-height: 400px;
+  }
+
+}
+
+/*----------------------- width 360px -----------------------*/
+@media only screen and (max-width: 360px){
+
+  .course-header-image{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  .course-info{
+    width: 100% !important;
+  }
+
+  #why-info{
+    width: 100%;
+    margin: auto;
+  }
+
+  #why-info p,
+  #why-info li{
+    font-size: 1em;
+  }
+
+}
+
+/*----------------------- width 360px -----------------------*/
+@media only screen and (max-width: 320px){
+  .slide2{
+    width: 95%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    background-color: rgba(0,0,0,.6);
+    padding: 10px;
+  }
+
+  .slide3{
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    background-color: rgba(0,0,0,.6);
+    padding: 10px;
+  }
+}
